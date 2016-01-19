@@ -5,7 +5,7 @@ require 'highlightjs-rails/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "highlightjs-rails"
-  spec.version       = Highlightjs::Rails::VERSION
+  spec.version       = HighlightJS::Rails::VERSION
   spec.authors       = ["David Reghay"]
   spec.email         = ["david.reghay@gmail.com"]
 
