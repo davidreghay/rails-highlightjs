@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'highlightjs-rails/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "highlightjs-rails"
+  spec.name          = "rails-highlightjs"
   spec.version       = HighlightJS::Rails::VERSION
   spec.authors       = ["David Reghay"]
   spec.email         = ["david.reghay@gmail.com"]
 
   spec.summary       = %q{highlight.js in gemified, easily Rails-digestible form}
-  spec.homepage      = "https://github.com/davidreghay/highlightjs-rails"
+  spec.homepage      = "https://github.com/davidreghay/rails-highlightjs"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
