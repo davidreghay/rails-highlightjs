@@ -1,8 +1,6 @@
-# Highlightjs::Rails
+# highlightjs-rails: for easy syntax highlighting in Rails
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/highlightjs/rails`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+highlightjs-rails was created to offer an up-to-date gemified version of the popular syntax-highlighting library highlight.js.
 
 ## Installation
 
@@ -20,15 +18,21 @@ Or install it yourself as:
 
     $ gem install highlightjs-rails
 
+Then add the following line to your application.js file
+
+```javascript
+//= require highlight_js
+```
+
+Add to your application.scss file your favorite theme:
+
+```css
+import soloarized-dark
+```
+
 ## Usage
 
 TODO: Write usage instructions here
-
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
 
 ## Contributing
 
