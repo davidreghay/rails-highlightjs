@@ -27,7 +27,7 @@ Then add the following line to your application.js file
 Add to your application.scss file your favorite theme:
 
 ```css
-import soloarized-dark;
+import solarized-dark;
 ```
 
 Or to your application.css file, like:
