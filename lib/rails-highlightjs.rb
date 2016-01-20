@@ -1,4 +1,4 @@
-require "highlightjs-rails/version"
+require "rails-highlightjs/version"
 
 module HighlightJS
   module Rails
