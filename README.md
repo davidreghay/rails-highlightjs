@@ -21,7 +21,7 @@ Or install it yourself as:
 Then add the following line to your application.js file
 
 ```javascript
-//= require highlight_js
+//= require highlight_pack
 ```
 
 Add to your application.scss file your favorite theme:
